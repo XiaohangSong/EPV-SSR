@@ -1,6 +1,6 @@
 function Data=compressed_sensing_EM_VMP_EPV_modeling(M,b,SNR,damp,sim_frames_str)
-%  compressed_sensing_EM_VMP_EPV_modeling carrys a simluation on a sparse
-%  bayesian learning proplem with unknown priors using the EM-VMP-EPV
+%  compressed_sensing_EM_VMP_EPV_modeling carries a simluation on a sparse
+%  bayesian learning problem with unknown priors using the EM-VMP-EPV
 %  (Algorithm4) in paper
 %
 %  "Unifying Message Passing Algorithms Under the Framework of Constrained Bethe Free Energy Minimization"
@@ -19,12 +19,12 @@ function Data=compressed_sensing_EM_VMP_EPV_modeling(M,b,SNR,damp,sim_frames_str
 %
 %   'M': Number of observations, and the number of unknown variable is set
 %        to half of this value. This ratio can be changed;
-%   'b': Sparsity, i.e., the ratio between the number of non-zero parameter
-%        of insterests and its total number;
+%   'b': Sparsity, i.e., the ratio between the number of non-zero parameters
+%        of insterest and its total number;
 %   'SNR': Signal-to-noise ratio in dB;
 %   'damp': Damping factor;
 %   'sim_frames_str': The desired maximum number of frames per simulation.
-%        For earlier simulation temination, the actual number of frames can be smaller.
+%        For earlier simulation termination, the actual number of frames can be smaller.
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
