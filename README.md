@@ -8,6 +8,6 @@ This code is a developed for and published as an application example of the fram
 EPV-SSR is open-sourced under the AGPL-3.0 license. See the LICENSE file for details.
 
 # Getting Start
-One can run the Sample_script_main.m file to see how to obtain some quick results.
+One can run the Sample_script_main.m file to obtain some quick results. For results shown in the paper, the simulation is carried out at a compute farm with 10^5 frames per sparsity ratio per algorithm until running out of the permitted resources, and the early termination is disabled. 
 
-To fully reproduce the results in the paper, we suggest the users to use batch processing. For results shown in the paper, the simulation is carried out at a compute farm with 10^5 frames per sparsity ratio per algorithm until running out of the permitted resources. In addition, the number of iterations per realizaiton is set to 500, while the early termination is disabled. 
+Here, algorithms one to four are provided for a linear sparse signal recovery (SSR) problem, namely the expection propogation (EP) algorithm, the expection propogation variant (EPV)  algorithm, the approximate message passing (AMP) algorithm, and the hybrid 'expectaion-maximization'-'variational message passing'-'expection propogation variant' (EM-VMP-EPV)  algorithm. The first three algorithms require prior information, while the last one can deal with SSR problems without perfect statistical model.
