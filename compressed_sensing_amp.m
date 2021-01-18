@@ -3,7 +3,7 @@ function [Data]=compressed_sensing_amp(M,b,SNR,damp,sim_frames_str)
 %  recovery proplem using the approximate message passing (Algorithm3)
 %  in paper
 %
-%  "Unifying Message Passing AlgorithmsUnder the Framework ofConstrained Bethe Free Energy Minimization"
+%  "Unifying Message Passing Algorithms Under the Framework of Constrained Bethe Free Energy Minimization"
 %   Authors: Dan Zhang, Xiaohang Song, Wenjin Wang, Gerhard Fettweis, Xiqi Gao
 %   https://arxiv.org/abs/1703.10932
 %
