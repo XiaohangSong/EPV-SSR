@@ -18,9 +18,9 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%
 sim_frames=1e2; % For results shown in the paper, the simulation is carried out at a compute farm with 10^5 frames per sparsity ratio
-                % per algorithm until the reserved computing time is reached. In addition, the number of iterations per realizaiton is 
+                % per algorithm until the reserved computing time is reached. In addition, the number of iterations per realization is 
                 % set to 500, while the early termination is disabled. 
-% Note: With current implementation, the output data is only created after
+% Note: With the current implementation, the output data is only created after
 % 100 realizations, i.e., sim_frames >=100.
 rho_range=0.1:0.05:0.4;  %Sparsity
 MSE=zeros(size(rho_range));
