@@ -1,6 +1,6 @@
 function [Data]=compressed_sensing_EP(M,b,SNR, damp, sim_frames_str)
 %  compressed_sensing_EP carrys a simluation on a sparse signal
-%  recovery proplem using the Expectation Propergation (Algorithm1)
+%  recovery proplem using the Expectation Propagation (Algorithm1)
 %  in paper
 %
 %  "Unifying Message Passing AlgorithmsUnder the Framework ofConstrained Bethe Free Energy Minimization"
