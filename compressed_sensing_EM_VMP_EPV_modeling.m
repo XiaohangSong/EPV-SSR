@@ -3,7 +3,7 @@ function Data=compressed_sensing_EM_VMP_EPV_modeling(M,b,SNR,damp,sim_frames_str
 %  bayesian learning proplem with unknown priors using the EM-VMP-EPV
 %  (Algorithm4) in paper
 %
-%  "Unifying Message Passing AlgorithmsUnder the Framework ofConstrained Bethe Free Energy Minimization"
+%  "Unifying Message Passing Algorithms Under the Framework of Constrained Bethe Free Energy Minimization"
 %   Authors: Dan Zhang, Xiaohang Song, Wenjin Wang, Gerhard Fettweis, Xiqi Gao
 %   https://arxiv.org/abs/1703.10932
 %
