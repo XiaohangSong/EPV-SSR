@@ -1,6 +1,6 @@
 function [Data]=compressed_sensing_EP(M,b,SNR, damp, sim_frames_str)
-%  compressed_sensing_EP carrys a simluation on a sparse signal
-%  recovery proplem using the Expectation Propagation (Algorithm1)
+%  compressed_sensing_EP carries a simluation on a sparse signal
+%  recovery problem using the Expectation Propagation (Algorithm1)
 %  in paper
 %
 %  "Unifying Message Passing AlgorithmsUnder the Framework ofConstrained Bethe Free Energy Minimization"
@@ -19,12 +19,12 @@ function [Data]=compressed_sensing_EP(M,b,SNR, damp, sim_frames_str)
 %
 %   'M': Number of observations, and the number of unknown variable is set
 %        to half of this value. This ratio can be changed;
-%   'b': Sparsity, i.e., the ratio between the number of non-zero parameter
-%        of insterests and its total number;
+%   'b': Sparsity, i.e., the ratio between the number of non-zero parameters
+%        of insterest and its total number;
 %   'SNR': Signal-to-noise ratio in dB;
 %   'damp': Damping factor;
 %   'sim_frames_str': The desired maximum number of frames per simulation.
-%        For earlier simulation temination, the actual number of frames can be smaller.
+%        For earlier simulation termination, the actual number of frames can be smaller.
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
