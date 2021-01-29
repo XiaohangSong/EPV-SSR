@@ -17,7 +17,7 @@ function Data=compressed_sensing_EM_VMP_EPV_modeling(M,b,SNR,damp,sim_frames_str
 %         Data.mse_final: The final MSE;
 %              Data.iter: The mean number of iterations applied;
 %
-%   'M': Number of unknown variables, and the number of observation is set
+%   'M': Number of unknown variables, and the number of observations is set
 %        to half of this value. This ratio can be changed within the implementation;
 %   'b': Sparsity, i.e., the ratio between the number of non-zero parameters
 %        of insterest and its total number;
